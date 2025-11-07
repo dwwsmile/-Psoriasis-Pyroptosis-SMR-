@@ -1,2 +1,8 @@
 # Psoriasis-Pyroptosis-SMR
-This study employs an integrated multi-omics framework to investigate the causal relationship between pyroptosis-related genes and psoriasis susceptibility. The analytical approach involved: 1) SMR analysis to test causal effects of gene expression, methylation, and protein abundance on psoriasis risk using top cis-QTLs (±1000 kb, P < 5×10⁻⁸); 2) Multi-SNP SMR integration; 3) HEIDI tests to exclude pleiotropy (P > 0.05); and 4) colocalization analysis to identify shared causal variants (PP.H4 > 0.5). Significant associations were defined by P_SMR < 0.05, P_SMR_multi < 0.05, and P_HEIDI > 0.05, with FDR correction applied. Analyses utilized SMR v1.3.1 and R v4.3.0, incorporating three independent psoriasis GWAS datasets and QTL data from eQTLGen, mQTL, and pQTL databases for discovery and validation.
+This project employs ​​multi-omics Mendelian randomization​​ to investigate the causal role of pyroptosis-related genes in psoriasis pathogenesis. We integrated 593 pyroptosis-related coding genes from GeneCards with three large-scale psoriasis GWAS datasets (GCST90014456, FinnGen, UK Biobank) for discovery and validation.
+Core analyses include:
+​​· SMR analysis​​ of eQTL/mQTL/pQTL data to assess causal relationships
+​​· Multi-SNP SMR​​ for enhanced statistical power
+​​· Colocalization analysis​​ to identify shared causal variants
+​​· HEIDI test​​ to exclude pleiotropic effects
+The study reveals how pyroptosis genes influence psoriasis risk through transcriptomic, epigenetic and proteomic mechanisms, providing potential therapeutic targets. Includes complete bioinformatics pipeline in R.
